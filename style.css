@@ -77,6 +77,34 @@ body {
     align-items: center;
 }
 
+.information {
+    text-align: center;
+}
+
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 16px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+}
+
+.coffee {
+    border: #3882F6;
+    width: 100px;
+    height: 100px;
+}
+
+.info {
+    max-width: 100px;
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -89,4 +117,3 @@ a {
     text-decoration: none;
     color: #E5E7EB;
 }
-
