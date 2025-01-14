@@ -25,7 +25,7 @@ body {
     justify-content: space-between;
     padding: 16px 15%;
     gap: 64px;
-    margin-bottom: 64px;
+    margin-bottom: 128px;
 }
 
 .hero-text {
@@ -92,7 +92,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 52px;
-    margin-bottom: 64px;
+    margin-bottom: 128px;
 }
 
 .info-image {
@@ -113,13 +113,22 @@ body {
 
 .quote {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 160px 20%;
 }
 
 .quote-text {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    
+    font-weight: 300;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: 900;
+    align-self: flex-end;
 }
 
 ul {
