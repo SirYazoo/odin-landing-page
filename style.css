@@ -22,13 +22,14 @@ body {
 
 .hero {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding: 16px 15%;
+    gap: 64px;
     margin-bottom: 64px;
 }
 
 .hero-text {
+    flex: 1;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -56,12 +57,12 @@ body {
 }
 
 .hero-image {
+    background-color: gray;
+    color: #F9FAF8;
     display: flex;
-}
-
-.shop-image {
-    width: auto;
-    height: 320px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
 }
 
 .logo {
@@ -77,15 +78,13 @@ body {
     align-items: center;
 }
 
-.information {
-    text-align: center;
-}
-
 .information-header {
+    text-align: center;
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    margin: 16px;
+    margin: 32px;
+    padding: 16px;
 }
 
 .container {
@@ -93,16 +92,34 @@ body {
     align-items: center;
     justify-content: center;
     gap: 52px;
+    margin-bottom: 64px;
 }
 
-.coffee {
-    border: #3882F6;
-    width: 100px;
-    height: 100px;
+.info-image {
+    border: 2px #3882F6 solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.text {
+    text-align: center;
+    color: #1F2937;
 }
 
 .info {
-    max-width: 100px;
+    max-width: 150px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    
 }
 
 ul {
